@@ -1,0 +1,13 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.sample-text {
+  text-align: justify;
+  padding-top: 20px;
+}
