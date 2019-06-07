@@ -1,5 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
-import { MatButtonModule, MatIconModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 import { BackToTopComponent } from './components/back-to-top.component';
 import { AppComponent } from './app.component';
