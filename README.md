@@ -1,21 +1,24 @@
 # angular-back-to-top
 **UPDATED for Angular 8**
 
-Angular 8 component that lets the user return to the top of the screen, using a Material Design button
+Angular 8 component that lets the user return to the top of the screen, using a Material Design FAB button
 
 ## Description
 A spin-off of https://github.com/annapogorelova/ng2-go-top-button (full credit here for the actual back-to-top logic).
+
 The following changes/additions were made:
 * This is a working Angular v8 sample project that can be run locally
 * Back-to-top logic contained within a reusable component
-...Unused code stripped away and refactored for component-use.
+...Unused code stripped away and refactored for component-use
 * [Material Design FAB button] used for component
 
 [Material Design FAB button]: https://material.io/design/components/buttons-floating-action-button.html
 
 ## Installation and Running a dev server
 Clone this repo and run `npm install` to install necessary packages.
+
 Next, run `ng serve` to start the application.
+
 Then in your browser, go to `http://localhost:4200/`
 
 Once the page has loaded, simply scroll down the page and the back-to-top button will appear in the bottom-right corner. Click this button to return to the top of the page. Simple!
@@ -26,7 +29,7 @@ Import statement:
 import { BackToTopComponent } from './components/back-to-top.component';
 ```
 
-Add it to imports in your module declaration.
+Add it to `imports` in your module declaration.
 ```
 @NgModule({
     ...
